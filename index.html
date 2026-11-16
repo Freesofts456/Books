@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>පොත්</title>
+
+    <style>
+        body {
+            font-family: "Noto Sans Sinhala", "Noto Sans", sans-serif;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            line-height: 1.8;
+            color: #222;
+        }
+
+        h1 {
+            color: #263c5a;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #555;
+            margin-top: 0;
+        }
+
+        .books {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .book {
+            background: white;
+            padding: 20px 22px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .book h2 {
+            font-size: 20px;
+            color: #174a75;
+            margin: 0 0 4px 0;
+        }
+
+        .book .en {
+            font-size: 14px;
+            color: #777;
+            margin: 0 0 10px 0;
+        }
+
+        .book p {
+            margin: 0 0 15px 0;
+            flex-grow: 1;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #e8f0fb;
+            color: #174a75;
+            font-size: 13px;
+            padding: 0 10px;
+            border-radius: 12px;
+            margin-right: 5px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            padding: 6px 16px;
+            margin-right: 8px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .read {
+            background: #174a75;
+            color: white;
+        }
+
+        .read:hover {
+            background: #e67e22;
+        }
+
+        .download {
+            border: 1px solid #174a75;
+            color: #174a75;
+        }
+
+        .download:hover {
+            border-color: #e67e22;
+            color: #e67e22;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: #e67e22;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>පොත්</h1>
+<p class="subtitle">මා ලියූ සහ සකස් කළ පොත්</p>
+
+<div class="books">
+
+    <!-- BOOK 1: EXISTENCE OF MATTER -->
+    <div class="book">
+        <h2>ද්‍රව්‍යයේ පැවැත්ම</h2>
+        <p class="en">Existence of Matter</p>
+        <p>
+            ප්‍රතිද්‍රව්‍ය නැති විශ්වයක කතාව: මහා පිපිරුමෙන් පසු ද්‍රව්‍ය ඉතිරි වූයේ ඇයි
+            යන බැරියෝන අසමමිතිය පිළිබඳ ගවේෂණයක්.
+        </p>
+        <div style="margin-bottom: 12px;">
+            <span class="tag">භෞතික විද්‍යාව</span>
+            <span class="tag">කොස්මොලොජිය</span>
+            <span class="tag">PDF</span>
+        </div>
+        <div class="buttons">
+            <a class="read" href="Existance%20of%20Matter.pdf" target="_blank">කියවන්න</a>
+            <a class="download" href="Existance%20of%20Matter.pdf" download>බාගන්න</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <a href="https://github.com/Freesofts456/Books" target="_blank">GitHub: Freesofts456/Books</a>
+</footer>
+
+</body>
+</html>
